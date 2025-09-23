@@ -1,0 +1,24 @@
+{
+  "info": {
+    "name": "API Películas",
+    "_postman_id": "12345-abcde-67890",
+    "description": "Colección de pruebas para la API de películas",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Test DB",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/test-db",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["test-db"]
+        }
+      }
+    }
+  ]
+}
