@@ -1,10 +1,22 @@
-
+{
+  "name": "api-peliculas",
+  "version": "1.0.0",
+  "description": "API Node.js para gestión de películas",
+  "main": "server.js",
+  "type": "module",
   "author": "Tatiana Gallego",
   "license": "MIT",
+  "keywords": ["peliculas", "api", "express", "nodejs"],
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "start": "node backend/server.js"
+  },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.0"
   }
-
+}
