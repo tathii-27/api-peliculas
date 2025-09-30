@@ -1,0 +1,14 @@
+{
+  "name": "api-peliculas",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
+
+
