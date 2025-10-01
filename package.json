@@ -1,22 +1,33 @@
 {
-  "name": "api-peliculas",
+  "name": "frontend",
   "version": "1.0.0",
-  "description": "API Node.js para gestión de películas",
-  "main": "server.js",
-  "type": "module",
-  "author": "Tatiana Gallego",
-  "license": "MIT",
-  "keywords": ["peliculas", "api", "express", "nodejs"],
-  "scripts": {
-    "dev": "nodemon backend/server.js",
-    "start": "node backend/server.js"
-  },
+  "private": true,
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^7.5.0",
-    "cors": "^2.8.5"
+    "axios": "^1.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "^0.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13"
   }
 }

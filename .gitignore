@@ -48,3 +48,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 >>>>>>> ea18c97f12d955aae43572d2ebdd76f2f291908d
+node_modules/
