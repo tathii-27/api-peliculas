@@ -1,35 +1,36 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import GenresPage from "./pages/GenresPage";
-import DirectorsPage from "./pages/DirectorsPage";
-import ProducersPage from "./pages/ProducersPage";
-import TypesPage from "./pages/TypesPage";
-import MediaPage from "./pages/MediaPage";
+import Media from "./components/Media";
+import Genero from "./components/Genero";
+import Director from "./components/Director";
+import Productora from "./components/Productora";
+import Tipo from "./components/Tipo";
 
-function App() {
+export default function App() {
   return (
     <Router>
       <div>
-        <nav style={{ marginBottom: "20px" }}>
-          <Link to="/genres" style={{ marginRight: "10px" }}>Géneros</Link>
-          <Link to="/directors" style={{ marginRight: "10px" }}>Directores</Link>
-          <Link to="/producers" style={{ marginRight: "10px" }}>Productoras</Link>
-          <Link to="/types" style={{ marginRight: "10px" }}>Tipos</Link>
-          <Link to="/media">Media</Link>
+        <nav style={{ background: "#222", padding: "10px" }}>
+          <Link to="/" style={{ color: "#fff", marginRight: "15px" }}>Media</Link>
+          <Link to="/genero" style={{ color: "#fff", marginRight: "15px" }}>Género</Link>
+          <Link to="/director" style={{ color: "#fff", marginRight: "15px" }}>Director</Link>
+          <Link to="/productora" style={{ color: "#fff", marginRight: "15px" }}>Productora</Link>
+          <Link to="/tipo" style={{ color: "#fff" }}>Tipo</Link>
         </nav>
-        <Routes>
-          <Route path="/genres" element={<GenresPage />} />
-          <Route path="/directors" element={<DirectorsPage />} />
-          <Route path="/producers" element={<ProducersPage />} />
-          <Route path="/types" element={<TypesPage />} />
-          <Route path="/media" element={<MediaPage />} />
-          <Route path="/" element={<h1>Bienvenido al Frontend de Películas</h1>} />
-        </Routes>
+
+        <div style={{ padding: "20px" }}>
+          <Routes>
+            <Route path="/" element={<Media />} />
+            <Route path="/genero" element={<Genero />} />
+            <Route path="/director" element={<Director />} />
+            <Route path="/productora" element={<Productora />} />
+            <Route path="/tipo" element={<Tipo />} />
+          </Routes>
+        </div>
       </div>
     </Router>
   );
 }
 
-export default App;
 
 

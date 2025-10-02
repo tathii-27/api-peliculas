@@ -1,0 +1,23 @@
+﻿[
+    {
+        "status":  "Activo",
+        "description":  "Películas de acción",
+        "name":  "Acción",
+        "created":  2025,
+        "updated":  2025
+    },
+    {
+        "status":  "Activo",
+        "description":  "Películas de aventura",
+        "name":  "Aventura",
+        "created":  2025,
+        "updated":  2025
+    },
+    {
+        "status":  "Activo",
+        "description":  "Películas Sci-Fi",
+        "name":  "Ciencia Ficción",
+        "created":  2025,
+        "updated":  2025
+    }
+]

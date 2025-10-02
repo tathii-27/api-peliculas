@@ -1,0 +1,38 @@
+﻿[
+    {
+        "year":  2010,
+        "genre":  "Ciencia Ficción",
+        "url":  "https://picsum.photos/id/237/200/300",
+        "producer":  "Warner Bros",
+        "type":  "Película",
+        "director":  "Christopher Nolan",
+        "synopsis":  "Sueños dentro de sueños",
+        "image":  "inception.jpg",
+        "title":  "Inception",
+        "serial":  1
+    },
+    {
+        "year":  2014,
+        "genre":  "Ciencia Ficción",
+        "url":  "https://picsum.photos/id/238/200/300",
+        "producer":  "Paramount Pictures",
+        "type":  "Película",
+        "director":  "Christopher Nolan",
+        "synopsis":  "Viaje espacial para salvar la humanidad",
+        "image":  "interstellar.jpg",
+        "title":  "Interstellar",
+        "serial":  2
+    },
+    {
+        "year":  2008,
+        "genre":  "Acción",
+        "url":  "https://picsum.photos/id/239/200/300",
+        "producer":  "Warner Bros",
+        "type":  "Película",
+        "director":  "Christopher Nolan",
+        "synopsis":  "El caballero oscuro protege Gotham",
+        "image":  "dark_knight.jpg",
+        "title":  "The Dark Knight",
+        "serial":  3
+    }
+]

@@ -1,24 +1,33 @@
-﻿import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Genero from "./pages/Genero";
-import Director from "./pages/Director";
-import Productora from "./pages/Productora";
-import Tipo from "./pages/Tipo";
-import Media from "./pages/Media";
+﻿import React, { useState } from 'react';
+import Media from './components/Media';
+import Genero from './components/Genero';
+import Director from './components/Director';
+import Productora from './components/Productora';
+import Tipo from './components/Tipo';
 
 function App() {
+  const [screen, setScreen] = useState('Media');
+
+  const renderScreen = () => {
+    switch(screen) {
+      case 'Media': return <Media />;
+      case 'Genero': return <Genero />;
+      case 'Director': return <Director />;
+      case 'Productora': return <Productora />;
+      case 'Tipo': return <Tipo />;
+      default: return <Media />;
+    }
+  };
+
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/genero" element={<Genero />} />
-        <Route path="/director" element={<Director />} />
-        <Route path="/productora" element={<Productora />} />
-        <Route path="/tipo" element={<Tipo />} />
-        <Route path="/media" element={<Media />} />
-      </Routes>
-    </Router>
+    <div style={{ padding: '20px' }}>
+      <header style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
+        {['Media','Genero','Director','Productora','Tipo'].map(name => (
+          <button key={name} onClick={() => setScreen(name)}>{name}</button>
+        ))}
+      </header>
+      <main>{renderScreen()}</main>
+    </div>
   );
 }
 

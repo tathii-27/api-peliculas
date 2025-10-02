@@ -1,0 +1,18 @@
+﻿[
+    {
+        "name":  "Warner Bros",
+        "updated":  2025,
+        "slogan":  "Imaginación al poder",
+        "description":  "Productora legendaria",
+        "created":  2025,
+        "status":  "Activo"
+    },
+    {
+        "name":  "Paramount Pictures",
+        "updated":  2025,
+        "slogan":  "Sueños que cobran vida",
+        "description":  "Productora histórica",
+        "created":  2025,
+        "status":  "Activo"
+    }
+]
