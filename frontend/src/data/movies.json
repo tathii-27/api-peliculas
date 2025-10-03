@@ -1,38 +1,35 @@
 ﻿[
-    {
-        "year":  2010,
-        "genre":  "Ciencia Ficción",
-        "url":  "https://picsum.photos/id/237/200/300",
-        "producer":  "Warner Bros",
-        "type":  "Película",
-        "director":  "Christopher Nolan",
-        "synopsis":  "Sueños dentro de sueños",
-        "image":  "inception.jpg",
-        "title":  "Inception",
-        "serial":  1
-    },
-    {
-        "year":  2014,
-        "genre":  "Ciencia Ficción",
-        "url":  "https://picsum.photos/id/238/200/300",
-        "producer":  "Paramount Pictures",
-        "type":  "Película",
-        "director":  "Christopher Nolan",
-        "synopsis":  "Viaje espacial para salvar la humanidad",
-        "image":  "interstellar.jpg",
-        "title":  "Interstellar",
-        "serial":  2
-    },
-    {
-        "year":  2008,
-        "genre":  "Acción",
-        "url":  "https://picsum.photos/id/239/200/300",
-        "producer":  "Warner Bros",
-        "type":  "Película",
-        "director":  "Christopher Nolan",
-        "synopsis":  "El caballero oscuro protege Gotham",
-        "image":  "dark_knight.jpg",
-        "title":  "The Dark Knight",
-        "serial":  3
-    }
+  {
+    "id": 1,
+    "titulo": "Inception",
+    "genero": "Ciencia Ficción",
+    "director": "Christopher Nolan",
+    "productora": "Warner Bros",
+    "tipo": "Película",
+    "anio": 2010,
+    "sinopsis": "Sueños dentro de sueños",
+    "imagen": "inception.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Interstellar",
+    "genero": "Ciencia Ficción",
+    "director": "Christopher Nolan",
+    "productora": "Paramount Pictures",
+    "tipo": "Película",
+    "anio": 2014,
+    "sinopsis": "Viaje espacial en busca de un nuevo hogar",
+    "imagen": "interstellar.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "The Dark Knight",
+    "genero": "Acción",
+    "director": "Christopher Nolan",
+    "productora": "Warner Bros",
+    "tipo": "Película",
+    "anio": 2008,
+    "sinopsis": "El caballero oscuro protege Gotham",
+    "imagen": "dark_knight.jpg"
+  }
 ]

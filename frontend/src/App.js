@@ -1,32 +1,32 @@
-﻿import React, { useState } from 'react';
-import Media from './components/Media';
-import Genero from './components/Genero';
-import Director from './components/Director';
-import Productora from './components/Productora';
-import Tipo from './components/Tipo';
+﻿import React, { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Media from "./components/Media";
 
 function App() {
-  const [screen, setScreen] = useState('Media');
+  const [screen, setScreen] = useState("Media");
 
   const renderScreen = () => {
-    switch(screen) {
-      case 'Media': return <Media />;
-      case 'Genero': return <Genero />;
-      case 'Director': return <Director />;
-      case 'Productora': return <Productora />;
-      case 'Tipo': return <Tipo />;
-      default: return <Media />;
+    switch (screen) {
+      case "Media":
+      default:
+        return <Media />;
     }
   };
 
   return (
-    <div style={{ padding: '20px' }}>
-      <header style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
-        {['Media','Genero','Director','Productora','Tipo'].map(name => (
-          <button key={name} onClick={() => setScreen(name)}>{name}</button>
-        ))}
-      </header>
-      <main>{renderScreen()}</main>
+    <div>
+      <nav className="navbar navbar-dark bg-dark">
+        <div className="container">
+          <span className="navbar-brand mb-0 h1">Cuevana-Style</span>
+          <div>
+            <button className="btn btn-outline-light me-2" onClick={() => setScreen("Media")}>Media</button>
+            <button className="btn btn-outline-light" onClick={() => setScreen("Media")}>Películas</button>
+          </div>
+        </div>
+      </nav>
+      <div className="container-fluid p-4">
+        {renderScreen()}
+      </div>
     </div>
   );
 }

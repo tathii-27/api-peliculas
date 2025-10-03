@@ -1,0 +1,18 @@
+﻿:root {
+  --bg: #0b1220;
+  --card: #0f1720;
+  --accent: #1db954;
+  --text: #e6eef6;
+  --muted: #9aa8b8;
+}
+body { background:var(--bg); color:var(--text); font-family: Inter, Roboto, Arial, sans-serif; }
+.card { background: rgba(255,255,255,0.03); border: none; }
+.card-title { font-weight:700; }
+.card-text { color: var(--muted); }
+.hero { position: relative; height: 320px; background-size: cover; background-position: center; margin-bottom: 30px; border-radius: 6px; overflow: hidden; box-shadow: 0 6px 24px rgba(0,0,0,0.6); }
+.hero-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(4,6,10,0.85) 0%, rgba(4,6,10,0.55) 40%, rgba(4,6,10,0.85) 100%); display: flex; align-items: center; padding: 20px; }
+.hero h1 { margin: 0; font-size: 34px; }
+.badge-4k { position: absolute; left: 8px; top: 8px; background: rgba(0,0,0,0.6); color: #fff; padding: 4px 8px; border-radius: 6px; font-weight:700; }
+@media (max-width: 768px) {
+  .hero { height: 220px; }
+}
