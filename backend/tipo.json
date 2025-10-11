@@ -1,0 +1,34 @@
+﻿{
+    "items":  [
+                  {
+                      "descripcion":  "Películas de cine",
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988690)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             },
+                      "nombre":  "Película",
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988690)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "id":  1
+                  },
+                  {
+                      "descripcion":  "Series de televisión",
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988690)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             },
+                      "nombre":  "Serie",
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988690)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "id":  2
+                  }
+              ]
+}

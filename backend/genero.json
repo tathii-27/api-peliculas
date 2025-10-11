@@ -1,0 +1,84 @@
+﻿{
+    "items":  [
+                  {
+                      "id":  1,
+                      "name":  "Acción",
+                      "estado":  "Activo",
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988687)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "descripcion":  "Películas de acción",
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988688)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             }
+                  },
+                  {
+                      "id":  2,
+                      "name":  "Aventura",
+                      "estado":  "Activo",
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988688)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "descripcion":  "Películas de aventura",
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988688)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             }
+                  },
+                  {
+                      "id":  3,
+                      "name":  "Ciencia ficción",
+                      "estado":  "Activo",
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988688)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "descripcion":  "Películas de ciencia ficción",
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988688)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             }
+                  },
+                  {
+                      "id":  4,
+                      "name":  "Drama",
+                      "estado":  "Activo",
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988689)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "descripcion":  "Películas dramáticas",
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988689)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             }
+                  },
+                  {
+                      "id":  5,
+                      "name":  "Terror",
+                      "estado":  "Activo",
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988689)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "descripcion":  "Películas de terror",
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988689)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             }
+                  }
+              ]
+}

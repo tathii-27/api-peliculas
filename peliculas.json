@@ -1,0 +1,62 @@
+﻿[
+    {
+        "serial":  "M001",
+        "titulo":  "El Señor de los Anillos: La Comunidad del Anillo",
+        "sinopsis":  "Un hobbit hereda un anillo mágico y emprende un viaje épico.",
+        "url":  "http://enlace.a.lotr1.com/video",
+        "imagen":  "LOTR1.jpg",
+        "anio_estreno":  2001,
+        "genero":  "g001",
+        "director":  "d001",
+        "productora":  "p001",
+        "tipo":  "t001",
+        "estado":  "Activo",
+        "fecha_creacion":  "2025-10-09 23:14:04",
+        "fecha_actualizacion":  "2025-10-09 23:14:04"
+    },
+    {
+        "serial":  "M002",
+        "titulo":  "The Godfather",
+        "sinopsis":  "El patriarca de una dinastía del crimen debe pasar el poder a su hijo.",
+        "url":  "http://enlace.a.godfather.com/video",
+        "imagen":  "TheGodfather.jpg",
+        "anio_estreno":  1972,
+        "genero":  "g003",
+        "director":  "d002",
+        "productora":  "p002",
+        "tipo":  "t001",
+        "estado":  "Activo",
+        "fecha_creacion":  "2025-10-09 23:14:04",
+        "fecha_actualizacion":  "2025-10-09 23:14:04"
+    },
+    {
+        "serial":  "M003",
+        "titulo":  "Dune",
+        "sinopsis":  "Un joven brillante debe viajar por el desierto para asegurar el futuro de su casa.",
+        "url":  "http://enlace.a.dune.com/video",
+        "imagen":  "Dune.jpg",
+        "anio_estreno":  2021,
+        "genero":  "g002",
+        "director":  "d004",
+        "productora":  "p003",
+        "tipo":  "t001",
+        "estado":  "Activo",
+        "fecha_creacion":  "2025-10-09 23:14:04",
+        "fecha_actualizacion":  "2025-10-09 23:14:04"
+    },
+    {
+        "serial":  "M005",
+        "titulo":  "Dark",
+        "sinopsis":  "Una saga familiar con un giro sobrenatural que abarca varias generaciones y el tiempo.",
+        "url":  "http://enlace.a.dark.com/video",
+        "imagen":  "Dark.jpg",
+        "anio_estreno":  2017,
+        "genero":  "g002",
+        "director":  "d003",
+        "productora":  "p003",
+        "tipo":  "t003",
+        "estado":  "Activo",
+        "fecha_creacion":  "2025-10-09 23:14:04",
+        "fecha_actualizacion":  "2025-10-09 23:14:04"
+    }
+]

@@ -1,0 +1,38 @@
+﻿{
+    "items":  [
+                  {
+                      "id":  1,
+                      "nombre":  "Disney",
+                      "estado":  "Activo",
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988689)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "descripcion":  "Productora de películas familiares",
+                      "slogan":  "El corazón de la magia",
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988689)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             }
+                  },
+                  {
+                      "id":  2,
+                      "nombre":  "Warner",
+                      "estado":  "Activo",
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988689)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "descripcion":  "Productora de películas de acción y drama",
+                      "slogan":  "Cine para todos",
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988690)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             }
+                  }
+              ]
+}

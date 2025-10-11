@@ -1,0 +1,14 @@
+﻿{
+  "media": [
+    { "id": 1, "titulo": "La Aventura Increíble", "url": "http://example.com/pelicula1", "imagen": "http://example.com/pelicula1.jpg", "año": "2023", "generoId": "1", "directorId": "1", "productoraId": "1", "tipoId": "1" },
+    { "id": 2, "titulo": "Misión Imposible: Reactiva", "url": "http://example.com/pelicula2", "imagen": "http://example.com/pelicula2.jpg", "año": "2022", "generoId": "2", "directorId": "2", "productoraId": "2", "tipoId": "2" },
+    { "id": 3, "titulo": "Cine Fantástico", "url": "http://example.com/pelicula3", "imagen": "http://example.com/pelicula3.jpg", "año": "2021", "generoId": "3", "directorId": "3", "productoraId": "1", "tipoId": "1" },
+    { "id": 4, "titulo": "Drama y Acción", "url": "http://example.com/pelicula4", "imagen": "http://example.com/pelicula4.jpg", "año": "2020", "generoId": "1", "directorId": "4", "productoraId": "2", "tipoId": "2" },
+    { "id": 5, "titulo": "Romance en Línea", "url": "http://example.com/pelicula5", "imagen": "http://example.com/pelicula5.jpg", "año": "2019", "generoId": "4", "directorId": "5", "productoraId": "3", "tipoId": "1" },
+    { "id": 6, "titulo": "Terror Nocturno", "url": "http://example.com/pelicula6", "imagen": "http://example.com/pelicula6.jpg", "año": "2023", "generoId": "2", "directorId": "6", "productoraId": "2", "tipoId": "2" },
+    { "id": 7, "titulo": "Animación Extrema", "url": "http://example.com/pelicula7", "imagen": "http://example.com/pelicula7.jpg", "año": "2022", "generoId": "6", "directorId": "7", "productoraId": "1", "tipoId": "1" },
+    { "id": 8, "titulo": "Comedia de Amigos", "url": "http://example.com/pelicula8", "imagen": "http://example.com/pelicula8.jpg", "año": "2021", "generoId": "7", "directorId": "8", "productoraId": "2", "tipoId": "2" },
+    { "id": 9, "titulo": "Suspenso Total", "url": "http://example.com/pelicula9", "imagen": "http://example.com/pelicula9.jpg", "año": "2020", "generoId": "5", "directorId": "1", "productoraId": "1", "tipoId": "2" },
+    { "id": 10, "titulo": "Ciencia y Futuro", "url": "http://example.com/pelicula10", "imagen": "http://example.com/pelicula10.jpg", "año": "2019", "generoId": "6", "directorId": "2", "productoraId": "2", "tipoId": "1" }
+  ]
+}

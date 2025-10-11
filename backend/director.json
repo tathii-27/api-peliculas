@@ -1,0 +1,34 @@
+﻿{
+    "items":  [
+                  {
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988689)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             },
+                      "nombre":  "James Cameron",
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988689)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "id":  1,
+                      "estado":  "Activo"
+                  },
+                  {
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988689)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             },
+                      "nombre":  "Steven Spielberg",
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988689)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "id":  2,
+                      "estado":  "Activo"
+                  }
+              ]
+}

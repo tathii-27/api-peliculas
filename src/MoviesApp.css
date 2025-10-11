@@ -1,0 +1,193 @@
+﻿/* --- ESTILOS GLOBALES Y CONTENEDOR PRINCIPAL --- */
+.movies-app-container {
+    background-color: #141414; /* Fondo oscuro tipo streaming */
+    min-height: 100vh;
+    color: white;
+    padding: 20px;
+}
+
+.movies-app-container h1 {
+    color: #FF0000; /* Rojo vibrante para el título */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.movies-app-container hr {
+    border-top: 1px solid #444;
+    margin: 20px 0;
+}
+
+.no-movies-message {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* --- ESTILOS DE FORMULARIO (Agregar y Editar) --- */
+.add-movie-form,
+.edit-movie-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.add-movie-form {
+    background-color: #333; /* Fondo más oscuro para el modo Agregar */
+}
+
+.edit-movie-form {
+    background-color: #2a64b2; /* Color azul para el modo Editar */
+}
+
+.edit-movie-form h3 {
+    width: 100%;
+    margin: 0;
+    color: white;
+}
+
+/* Estilos para todos los inputs */
+.add-movie-form input,
+.edit-movie-form input {
+    padding: 10px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: white;
+    border-radius: 4px;
+    flex: 1 1 150px; /* Base flexible para inputs */
+}
+
+/* Estilo para los botones de los formularios */
+.add-movie-form button,
+.edit-movie-form button {
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    flex: 1 1 auto;
+    transition: background-color 0.2s;
+}
+
+.add-movie-form button[type="submit"] {
+    background-color: #FF0000; /* Botón Agregar */
+    color: white;
+}
+.add-movie-form button[type="submit"]:hover {
+    background-color: #cc0000;
+}
+
+.edit-movie-form button[type="submit"] {
+    background-color: #007bff; /* Botón Guardar */
+    color: white;
+}
+.edit-movie-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.edit-movie-form button[type="button"] { /* Botón Cancelar */
+    background-color: #6c757d;
+    color: white;
+}
+.edit-movie-form button[type="button"]:hover {
+    background-color: #5a6268;
+}
+
+/* --- SECCIÓN DE BÚSQUEDA --- */
+.search-section {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-section input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: white;
+    border-radius: 4px;
+}
+
+.search-section button {
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+/* --- GRID DE PELÍCULAS (Estilo Cuevana) --- */
+.movies-grid {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
+} 
+
+.movie-card {
+    background-color: #1c1c1c; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.8);
+    transition: transform 0.3s ease; /* Efecto suave */
+}
+
+.movie-card:hover {
+    transform: scale(1.03); /* Ligeramente más grande al pasar el mouse */
+    box-shadow: 0 8px 15px rgba(255, 0, 0, 0.4); /* Sombra roja para Cuevana */
+}
+
+.movie-poster {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover;
+}
+
+.movie-info {
+    padding: 10px;
+}
+
+.movie-info h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.1em;
+}
+
+.movie-info p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+/* Botones dentro de la tarjeta */
+.movie-info div {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-info button {
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
+}
+
+.movie-info button:first-child { /* Botón Actualizar */
+    background-color: #2a64b2;
+}
+.movie-info button:first-child:hover {
+    background-color: #1e4d8a;
+}
+
+.movie-info button:last-child { /* Botón Eliminar */
+    background-color: #cc0000;
+}
+.movie-info button:last-child:hover {
+    background-color: #a30000;
+}

@@ -1,0 +1,22 @@
+﻿[
+    {
+        "nombre":  "inception.jpg",
+        "ruta":  "./assets/inception.jpg"
+    },
+    {
+        "nombre":  "Interstellar.jpg",
+        "ruta":  "./assets/Interstellar.jpg"
+    },
+    {
+        "nombre":  "matrix.jpg",
+        "ruta":  "./assets/matrix.jpg"
+    },
+    {
+        "nombre":  "pulp Fiction.jpg",
+        "ruta":  "./assets/pulp Fiction.jpg"
+    },
+    {
+        "nombre":  "The Godfather.jpg",
+        "ruta":  "./assets/The Godfather.jpg"
+    }
+]

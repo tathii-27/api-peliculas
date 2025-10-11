@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>CRUD Películas</title>
+<style>
+body { font-family: Arial; margin: 20px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+th { background-color: #f4f4f4; }
+input[type="text"] { width: 90%; }
+button { margin: 2px; }
+</style>
+</head>
+<body>
+<h1>CRUD de Películas</h1>
+
+<h2>Buscar película</h2>
+<input type="text" id="search" placeholder="Buscar por título..." oninput="buscar()" />
+
+<h2>Agregar nueva película</h2>
+<input type="text" id="titulo" placeholder="Título" />
+<input type="text" id="genero" placeholder="Género" />
+<input type="text" id="tipo" placeholder="Tipo" />
+<input type="text" id="director" placeholder="Director" />
+<input type="text" id="productora" placeholder="Productora" />
+<input type="text" id="url" placeholder="URL" />
+<input type="text" id="imagen" placeholder="Imagen URL" />
+<button onclick="agregar()">Agregar</button>
+
+<h2>Películas</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th><th>Título</th><th>Género</th><th>Tipo</th><th>Director</th><th>Productora</th><th>URL</th><th>Imagen</th><th>Acciones</th>
+</tr>
+</thead>
+<tbody id="tabla"></tbody>
+</table>
+
+<script>
+const apiUrl = "http://localhost:' + $StartPort + '/movies";
+
+async function cargar() {
+  const res = await fetch(apiUrl);
+  const data = await res.json();
+  mostrar(data);
+}
+
+function mostrar(peliculas) {
+  const tabla = document.getElementById("tabla");
+  tabla.innerHTML = "";
+  peliculas.forEach(function(p) {
+    tabla.innerHTML += "<tr>" +
+      "<td>" + p.id + "</td>" +
+      "<td><input value=\'" + p.titulo + "\' onchange=\'editar(" + p.id + ", \"titulo\", this.value)\' /></td>" +
+      "<td><input value=\'" + p.genero + "\' onchange=\'editar(" + p.id + ", \"genero\", this.value)\' /></td>" +
+      "<td><input value=\'" + p.tipo + "\' onchange=\'editar(" + p.id + ", \"tipo\", this.value)\' /></td>" +
+      "<td><input value=\'" + p.director + "\' onchange=\'editar(" + p.id + ", \"director\", this.value)\' /></td>" +
+      "<td><input value=\'" + p.productora + "\' onchange=\'editar(" + p.id + ", \"productora\", this.value)\' /></td>" +
+      "<td><input value=\'" + p.url + "\' onchange=\'editar(" + p.id + ", \"url\", this.value)\' /></td>" +
+      "<td><img src=\'" + p.imagen + "\' width=\'50\' /></td>" +
+      "<td><button onclick=\'eliminar(" + p.id + ")\'>Eliminar</button></td>" +
+      "</tr>";
+  });
+}
+
+async function agregar() {
+  const nuevo = {
+    titulo: document.getElementById("titulo").value,
+    genero: document.getElementById("genero").value,
+    tipo: document.getElementById("tipo").value,
+    director: document.getElementById("director").value,
+    productora: document.getElementById("productora").value,
+    url: document.getElementById("url").value,
+    imagen: document.getElementById("imagen").value
+  };
+  await fetch(apiUrl, { method: "POST", headers: {"Content-Type":"application/json"}, body: JSON.stringify(nuevo) });
+  cargar();
+}
+
+async function editar(id, campo, valor) {
+  const data = {};
+  data[campo] = valor;
+  await fetch(apiUrl + "/" + id, { method: "PATCH", headers: {"Content-Type":"application/json"}, body: JSON.stringify(data) });
+}
+
+async function eliminar(id) {
+  await fetch(apiUrl + "/" + id, { method: "DELETE" });
+  cargar();
+}
+
+function buscar() {
+  const filtro = document.getElementById("search").value.toLowerCase();
+  fetch(apiUrl).then(r => r.json()).then(data => {
+    mostrar(data.filter(p => p.titulo.toLowerCase().includes(filtro)));
+  });
+}
+
+cargar();
+</script>
+</body>
+</html>

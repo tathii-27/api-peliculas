@@ -1,0 +1,50 @@
+﻿{
+    "items":  [
+                  {
+                      "id":  1,
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988690)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "serial":  "M001",
+                      "directorId":  1,
+                      "imagen":  "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988690)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             },
+                      "url":  "https://example.com/avatar",
+                      "sinopsis":  "Película de ciencia ficción",
+                      "productoraId":  1,
+                      "generoId":  3,
+                      "tipoId":  1,
+                      "titulo":  "Avatar",
+                      "año":  2009
+                  },
+                  {
+                      "id":  2,
+                      "fechaCreacion":  {
+                                            "value":  "\/Date(1759621988690)\/",
+                                            "DisplayHint":  2,
+                                            "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                        },
+                      "serial":  "M002",
+                      "directorId":  2,
+                      "imagen":  "https://upload.wikimedia.org/wikipedia/en/3/3f/DarkNetflixPoster.jpg",
+                      "fechaActualizacion":  {
+                                                 "value":  "\/Date(1759621988690)\/",
+                                                 "DisplayHint":  2,
+                                                 "DateTime":  "sábado, 4 de octubre de 2025 6:53:08 p. m."
+                                             },
+                      "url":  "https://example.com/dark",
+                      "sinopsis":  "Serie de suspenso",
+                      "productoraId":  2,
+                      "generoId":  4,
+                      "tipoId":  2,
+                      "titulo":  "Dark",
+                      "año":  2017
+                  }
+              ]
+}
